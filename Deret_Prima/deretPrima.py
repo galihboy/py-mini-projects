@@ -12,10 +12,8 @@
 import sys
 
 class Prima:
-    #def __init__(self, batasBawah, batasAtas):
-    #    self.batasBawah = batasBawah
-    #    self.batasAtas = batasAtas
-    
+    def __init__(self):
+        pass
     def CekPrima(self, bilangan):
         prima = True
         for i in range(2, bilangan):
@@ -59,6 +57,6 @@ elif len(sys.argv) == 3:
     
         assert b1 < b2, "Nilai batas bawah harus lebih kecil dari batas atas"
         p = Prima()
-        p.DaftarPrima(int(sys.argv[1]), int(sys.argv[2]))
+        p.DaftarPrima(b1, b2)
     except ValueError:
         print("Parameter argumen harus berupa bilangan bulat")
