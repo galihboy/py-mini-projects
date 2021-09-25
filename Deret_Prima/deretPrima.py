@@ -5,9 +5,9 @@
 #
 # Cara penggunaan:
 # 1. Satu argumen untuk pengecekan bilangan prima
-#       python argPrima.py 5
+#       python deretPrima.py 5
 # 2. Dua argumen untuk menampilkan daftar bilangan prima antara dua bilangan
-#       python argPrima.py 5 20
+#       python deretPrima.py 5 20
 
 import sys
 
