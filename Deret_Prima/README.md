@@ -27,3 +27,11 @@
         Bilangan prima antara 100 dan 150 adalah:
         101 103 107 109 113 127 131 137 139 149
         ```
+2. gui_cek_prima.py
+	- Aplikasi berbasis GUI untuk memeriksa apakah sebuah bilangan termasuk bilangan prima
+3. gui_deret_prima.py
+	- Aplikasi berbasis GUI untuk menghasilkan deret bilangan prima
+	![GUI Deret Prima](/Deret_Prima/gui_deret_prima.jpg)
+	
+**Catatan:**
+Aplikasi GUI dalam hal ini menggunakan library [PyQT5](https://pypi.org/project/PyQt5/), silakan install jika ingin menjalankan. Untuk yang menggunakan environment anaconda silakan menyesuaikan.
