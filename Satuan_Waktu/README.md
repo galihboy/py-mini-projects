@@ -1,4 +1,4 @@
-## Deret Prima.
+## Satuan Waktu.
 ###### Developed by [Galih Hermawan](https://galih.eu).
 ---
 
