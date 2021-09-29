@@ -11,8 +11,6 @@ Web: https://galih.eu
 
 Menghitung atau mengkonversi sebuah nilai dari sebuah satuan berat ke 
 satuan berat yang lain.
-
-Informasi satuan berat diambil dari website: https://rumuspintar.com/satuan-berat/
 """
 
 '''
