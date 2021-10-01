@@ -16,5 +16,24 @@ Rujukan: [Tesaurus Kemdikbud](http://tesaurus.kemdikbud.go.id/tematis/lema/satua
 		250 mg = 0.25 g
         ```
         
-2. -- versi + satuan berat khusus -- [on progress]
+2. 02_satuan_berat_graph.py
+	- dikarenakan kenaikan/penurunan satuan tidak linier atau seragam nilainya, untuk kasus seperti ini lebih cocok menggunakan metode struktur data Graph
+	- konsep Graph disesuaikan berdasarkan [Graph Galih](https://github.com/galihboy/py-mini-projects/tree/main/Struktur_Data)
+	- kamus data yang telah disesuaikan: 
+		```
+		satuan = [
+					('ton','kuintal',10), 
+					('kuintal','kg',100), 
+					('kg','hg',10), 
+					('hg','dag',10),
+					('dag','g',10), 
+					('g','dg', 10), 
+					('dg','cg',10), 
+					('cg','mg',10),
+					('kg','pound',2.20462), 
+					('ons','hg',1), 
+					('pon','ons',5), 
+					('lbs','pound',1)
+				]
+		```
 3. -- versi multi masukan -- [on progress]
