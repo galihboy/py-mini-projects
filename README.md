@@ -8,5 +8,5 @@
 	- kalkulasi antar satuan waktu (salah satu materi MTK anak kelas 4 SD).
 3. [Satuan Berat](https://github.com/galihboy/py-mini-projects/tree/main/Satuan_Berat)
 	- kalkulasi antar satuan berat, seperti: ton, kilogram, dst.
-4. [Struktur Data](https://github.com/galihboy/py-mini-projects/tree/main/Struktur Data)
+4. [Struktur Data](https://github.com/galihboy/py-mini-projects/tree/main/Struktur_Data)
 	- struktur data
