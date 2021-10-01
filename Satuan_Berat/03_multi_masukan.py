@@ -66,7 +66,7 @@ print("\n---------------------------------")
 print("Konversi Antar Satuan Berat.")
 print(f"Satuan yang dikenali: {list(g.kamus.keys())}.")
 print("Contoh masukan: '1 ton 2 kuintal 3 kg'.")
-print("Untuk luaran cukup pulih salah satu dari satuan berat.")
+print("Untuk luaran cukup pilih salah satu dari satuan berat.")
 print("-----------------------------------")
 
 while True:

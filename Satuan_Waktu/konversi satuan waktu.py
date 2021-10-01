@@ -69,7 +69,7 @@ print("\n---------------------------------")
 print("Konversi Antar Satuan Waktu.")
 print(f"Satuan yang dikenali: {list(g.kamus.keys())}.")
 print("Contoh masukan: '1 tahun 2 bulan 3 minggu'.")
-print("Untuk luaran cukup pulih salah satu dari satuan waktu.")
+print("Untuk luaran cukup pilih salah satu dari satuan waktu.")
 print("-----------------------------------")
 
 while True:
