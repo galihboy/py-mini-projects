@@ -3,10 +3,13 @@
 Created on Fri Oct  1 19:52:06 2021
 
 @author: galih-hermawan
+Repository: https://github.com/galihboy/py-mini-projects/tree/main/Satuan_Berat
+Web: https://galih.eu
 """
 
 class Graph:
     def __init__(self, data):
+        # membuat kamus data berdasarkan satuan
         self.data = data
         self.kamus = {}
         for kiri, kanan, nilai in data:
@@ -23,6 +26,7 @@ class Graph:
                 nilai = 1/nilai
                 self.kamus[kanan] = [[kiri, nilai]]
     
+    # mengambil semua jalur satuan-satuan yang terlibat
     def Jalur_Terhubung(self, kiri, kanan, jalur=[]):
             jalur = jalur + [kiri]
             
@@ -40,7 +44,8 @@ class Graph:
                         daftar_jalur.append(p)
     
             return daftar_jalur
-        
+    
+    # menentukan satuan yang terlibat adalah yang terpendek
     def Rute_Terpendek(self, listJalur):
         if len(listJalur)==0:
             return []
@@ -51,6 +56,7 @@ class Graph:
                 terpendek=i
         return terpendek
     
+    # menghitung total nilai satuan
     def Hitung(self, nilai, jalur):
         if len(jalur) > 1:
             jmlTotal = 1
