@@ -47,3 +47,22 @@ File berikut dibuat karena dulu membantu saya mengevaluasi tugas anak SD kelas 4
 	Satuan (tahun/bulan/hari): hari
 	Total: 455 hari  
 	```
+4. libGraph.py
+	- diambil dan diadaptasi dari [lib Graph Satuan Berat](https://github.com/galihboy/py-mini-projects/blob/main/Satuan_Berat/G2_satuan_berat_graph.py)
+	- cukup diganti isi kamus datanya
+5. konversi satuan waktu.py
+	- menerima masukan berupa kalimat yang berisi banyak nilai dan satuan
+	- menggunakan class (library) di file **"libGraph.py"** sebelumnya
+	- terdapat validasi untuk data masukan dan satuan luaran
+	- contoh hasil eksekusi program:
+		```
+		Data masukan: 1 milenium 2 abad 3 lustrum 2 windu
+		Satuan luaran: tahun
+		1 milenium 2 abad 3 lustrum 2 windu = 1231.0 tahun
+		```
+		
+		```
+		Data masukan: 2.5 jam 30 menit 1 hari
+		Satuan luaran: detik
+		2.5 jam 30 menit 1 hari = 97200.0 detik
+		```
