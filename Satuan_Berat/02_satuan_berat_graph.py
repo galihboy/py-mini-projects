@@ -61,7 +61,7 @@ class Graph:
                         jmlTotal = jmlTotal * x[1]
                         satAwal = x[0]
                         
-            return nilai * float(jmlTotal)
+            return nilai * jmlTotal
         else:
             return nilai
 
