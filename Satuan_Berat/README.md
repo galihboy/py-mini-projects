@@ -16,7 +16,7 @@ Rujukan: [Tesaurus Kemdikbud](http://tesaurus.kemdikbud.go.id/tematis/lema/satua
 		250 mg = 0.25 g
         ```
         
-2. 02_satuan_berat_graph.py
+2. G2_satuan_berat_graph.py
 	- dikarenakan kenaikan/penurunan satuan tidak linier atau seragam nilainya, untuk kasus seperti ini lebih cocok menggunakan metode struktur data Graph
 	- konsep Graph disesuaikan berdasarkan [Graph Galih](https://github.com/galihboy/py-mini-projects/tree/main/Struktur_Data)
 	- kamus data yang telah disesuaikan: 
