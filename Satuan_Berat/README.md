@@ -36,4 +36,19 @@ Rujukan: [Tesaurus Kemdikbud](http://tesaurus.kemdikbud.go.id/tematis/lema/satua
 					('lbs','pound',1)
 				]
 		```
-3. -- versi multi masukan -- [on progress]
+3. 03_multi_masukan.py
+	- menerima masukan berupa kalimat yang berisi banyak nilai dan satuan
+	- menggunakan class (library) di file **"G2_satuan_berat_graph"** sebelumnya
+	- terdapat validasi untuk data masukan dan satuan luaran
+	- contoh hasil eksekusi program:
+		```
+		Data masukan: 1 ton 2.5 kuintal
+		Satuan luaran: kg
+		1 ton 2.5 kuintal = 1250.0 kg
+		```
+		
+		```
+		Data masukan: 1000 mg 1.5 kg 2 ons
+		Satuan luaran: g
+		1000 mg 1.5 kg 2 ons = 1701.0 g
+		```
