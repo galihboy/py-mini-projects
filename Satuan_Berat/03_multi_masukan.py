@@ -68,9 +68,8 @@ print(f"Satuan yang dikenali: {list(g.kamus.keys())}.")
 print("Contoh masukan: '1 ton 2 kuintal 3 kg'.")
 print("Untuk luaran cukup pulih salah satu dari satuan berat.")
 print("-----------------------------------")
-while True:
 
-    
+while True:
     while True:
         masukan = input("Data masukan: ")
         masukan = masukan.strip().lower()
@@ -82,18 +81,21 @@ while True:
         if luaran in g.kamus.keys(): break
         else: print("Penulisan luaran tidak sesuai.") 
     
+    # ambil semua bagian data masukan
     dataMentah = masukan.split(" ")
     
-    dataNilai = dataMentah[::2]
-    dataSatuan = dataMentah[1::2]
+    dataNilai = dataMentah[::2] # menampung nilai
+    dataSatuan = dataMentah[1::2] # menampung satuan
     
     total = 0
     for i in range(int(len(dataMentah)/2)):
         jml = float(dataNilai[i])
         satAwal = dataSatuan[i]
+        # gunakan method di class
         jalurLengkap = g.Jalur_Terhubung(satAwal, luaran)
         jalur = g.Rute_Terpendek(jalurLengkap)
         hasil = g.Hitung(jml, jalur)
+        # jumlahkan nilai dari setiap satuan
         total += hasil
         
     print(f"{masukan} = {total} {luaran}")
