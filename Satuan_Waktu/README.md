@@ -1,5 +1,5 @@
 ## Satuan Waktu.
-###### Developed by [Galih Hermawan](https://galih.eu).
+###### Developed by [Galih Hermawan](https://galih.eu) | [Blog Medium](https://masgalih.medium.com).
 ---
 
 File berikut dibuat karena dulu membantu saya mengevaluasi tugas anak SD kelas 4 pada materi satuan waktu. Walaupun satuan waktunya belum lengkap.

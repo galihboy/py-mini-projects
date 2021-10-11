@@ -1,5 +1,5 @@
 ## Satuan Berat.
-###### Developed by [Galih Hermawan](https://galih.eu).
+###### Developed by [Galih Hermawan](https://galih.eu) | [Blog Medium](https://masgalih.medium.com).
 ---
 
 Menghitung konversi nilai dari satuan berat satu ke yang lain.
