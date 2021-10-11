@@ -10,5 +10,5 @@
 	- kalkulasi antar satuan berat, seperti: ton, kilogram, dst.
 4. [Struktur Data](https://github.com/galihboy/py-mini-projects/tree/main/Struktur_Data)
 	- struktur data
-5. [Baca Bilangan]((https://github.com/galihboy/py-mini-projects/tree/main/Baca_Bilangan))
+5. [Baca Bilangan](https://github.com/galihboy/py-mini-projects/tree/main/Baca_Bilangan)
 	- membaca lambang bilangan
