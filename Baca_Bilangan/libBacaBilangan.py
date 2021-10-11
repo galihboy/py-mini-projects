@@ -3,6 +3,8 @@
 Created on Mon Oct 11 20:48:58 2021
 
 @author: galih-hermawan
+Github: https://github.com/galihboy/
+Web: http://galih.eu
 """
 
 # memperbaiki bugs 'nol'
