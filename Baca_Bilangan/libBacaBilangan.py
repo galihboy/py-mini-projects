@@ -104,7 +104,7 @@ def BacaAngka(angka):
         satuan = "triliun"
         teks += f"{angkaDepan} {satuan}{sisa}"
     else:
-        teks += "Sorry, angka maksimal kurang dari 1 kuadriliun/dwiyar"
+        return "Sorry, angka maksimal kurang dari 1 kuadriliun/dwiyar"
     
     return f"{depan} {teks}"
 
