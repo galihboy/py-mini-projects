@@ -28,4 +28,4 @@ Hasil eksekusi program versi console adalah seperti contoh berikut.
 
 Screenshot hasil eksekusi file Baca_Bilangan_GUI.py (menggunakan PyQt)
 
-![Manajemen file](/Baca_Bilangan/baca_bilangan.png)
+![Manajemen file](/Baca_Bilangan/gambar_baca_bilangan.jpg)
