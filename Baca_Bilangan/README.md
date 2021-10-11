@@ -3,7 +3,9 @@
 ---
 
 Kode ini digunakan untuk membaca lambang bilangan. 
+
 Tutorial langkah per langkah ada di [blog](https://masgalih.medium.com/membaca-lambang-bilangan-dalam-python-secara-bertahap-be50279d8538).
+
 Hasil eksekusi program adalah seperti contoh berikut.
 
 ```
