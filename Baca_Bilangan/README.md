@@ -6,7 +6,7 @@ Kode ini digunakan untuk membaca lambang bilangan.
 
 Tutorial langkah per langkah ada di [blog](https://masgalih.medium.com/membaca-lambang-bilangan-dalam-python-secara-bertahap-be50279d8538).
 
-Hasil eksekusi program adalah seperti contoh berikut.
+Hasil eksekusi program versi console adalah seperti contoh berikut.
 
 ```
 	Angka: 12
@@ -25,3 +25,7 @@ Hasil eksekusi program adalah seperti contoh berikut.
 	dibaca: satu milyar sembilan ratus dua juta tiga ratus sembilan puluh ribu sembilan ratus tiga puluh sembilan
 
 ```
+
+Screenshot hasil eksekusi file Baca_Bilangan_GUI.py (menggunakan PyQt)
+
+![Manajemen file](/Baca_Bilangan/baca_bilangan.png)
