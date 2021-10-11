@@ -2,6 +2,8 @@
 ###### Developed by [Galih Hermawan](https://galih.eu).
 ---
 
+Tutorial tersedia dalam [Blog Medium](https://masgalih.medium.com/deret-bilangan-prima-dalam-python-8a343084ad6f)
+
 1. deretPrima.py
 	- aplikasi ini dapat digunakan untuk memeriksa apakah sebuah bilangan termasuk dalam bilangan prima, serta dapat menampilkan deret bilangan prima di antara dua buah bilangan.
 	- untuk pemeriksaan bilangan prima, diperlukan 1 argumen berupa numerik
@@ -31,6 +33,7 @@
 	- Aplikasi berbasis GUI untuk memeriksa apakah sebuah bilangan termasuk bilangan prima
 3. gui_deret_prima.py
 	- Aplikasi berbasis GUI untuk menghasilkan deret bilangan prima
+	
 	![GUI Deret Prima](/Deret_Prima/gui_deret_prima.jpg)
 	
 **Catatan:**
