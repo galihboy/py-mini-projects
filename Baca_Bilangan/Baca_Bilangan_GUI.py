@@ -55,7 +55,8 @@ class Ui_MainWindow(object):
         self.tombolBaca.setText(_translate("MainWindow", "Baca"))
         self.txtAngka.setPlaceholderText(_translate("MainWindow", "bilangan bulat"))
         self.txtOutput.setPlaceholderText(_translate("MainWindow", "... hasil baca..."))
-        self.txtOutput.setEnabled(False)
+        #self.txtOutput.setEnabled(False)
+        self.txtOutput.setReadOnly(True)
         
     # kotak dialog kustom
     def Pesan(self, ikon, judul, teks):
