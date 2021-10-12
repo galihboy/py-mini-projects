@@ -1,9 +1,10 @@
-## Baca Bilangan
+## Membaca dan Menulis Lambang Bilangan
 ###### Developed by [Galih Hermawan](https://galih.eu) | [Blog Medium](https://masgalih.medium.com).
 ---
 
 Kode di folder ini digunakan untuk membaca dan menulis lambang bilangan. 
 
+#### 1. Membaca Lambang Bilangan
 Tutorial langkah per langkah membaca bilangan ada di [blog](https://masgalih.medium.com/membaca-lambang-bilangan-dalam-python-secara-bertahap-be50279d8538).
 
 Hasil eksekusi file **baca_bilangan_loop.py** versi console adalah seperti contoh berikut.
@@ -29,6 +30,10 @@ Hasil eksekusi file **baca_bilangan_loop.py** versi console adalah seperti conto
 Screenshot hasil eksekusi file **Baca_Bilangan_GUI.py** (menggunakan PyQt)
 
 ![Baca Bilangan](/Baca_Bilangan/gambar_baca_bilangan.jpg)
+
+---
+
+#### 2. Menulis Lambang Bilangan
 
 Tutorial langkah per langkah untuk menulis lambang bilangan ada di [blog](https://masgalih.medium.com/menerjemahkan-teks-bilangan-dalam-python-untuk-pemula-416b3e645e68).
 
