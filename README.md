@@ -11,6 +11,8 @@
 4. [Struktur Data](https://github.com/galihboy/py-mini-projects/tree/main/Struktur_Data)
 	- struktur data
 	
+Sebagian aplikasi terdapat demo online-nya di sini: https://galihboy.github.io/mini_projects/
+
 **Catatan:**
 
 Baca_Tulis_Bilangan pindah ke [sini](https://github.com/galihboy/Baca_Tulis_Bilangan).
