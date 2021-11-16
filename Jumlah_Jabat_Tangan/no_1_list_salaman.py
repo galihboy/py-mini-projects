@@ -1,5 +1,5 @@
 """
-Jumlah Jabat Tangan (Salaman)
+Daftar Jabat Tangan (Salaman)
 ---------------------------------------
 https://blog.galih.eu
 https://galihboy.github.io
@@ -15,18 +15,12 @@ jml_orang = 5
 
 # jumlah orang harus lebih dari 1
 assert jml_orang > 1
+# penampung jumlah salaman, inisialisasi 0
+jml_salaman = 0
 
-"""
-Cara Iteratif
-2 orang = 1
-3 orang = 1 + 2 = 3
-4 orang = 1 + 2 + 3 = 6
-5 orang = 1 + 2 + 3 + 4 = 10
-"""
-def Hitung_Jumlah_Salaman(jml_orang):
-    total = 0
-    for i in range(1, jml_orang):
-        total += i
-    return total
+for i in range(1, jml_orang):
+    for j in range(i + 1, jml_orang + 1):
+        jml_salaman += 1
+        print(f"Orang {i} - Orang {j}")
 
-print(f"\nJumlah salaman: {Hitung_Jumlah_Salaman(jml_orang)}")
+print(f"\nJumlah salaman yang terjadi dalam {jml_orang} orang = {jml_salaman} kali")

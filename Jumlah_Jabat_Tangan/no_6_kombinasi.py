@@ -8,15 +8,8 @@ https://galihboy.github.io
 3 orang = ABC -> A-B, A-C, B-C (3x salaman)
 4 orang = ABCD -> A-B, A-C, A-D, B-C, B-D, C-D (6x salaman)
 5 orang = ABCDE -> A-B, A-C, A-D, A-E, B-C, B-D, B-E, C-D, C-E, D-E (10x salaman)
-"""
+------------------------------------------------------------------------------------
 
-# inisialisasi jumlah orang
-jml_orang = 5
-
-# jumlah orang harus lebih dari 1
-assert jml_orang > 1
-
-"""
 Metode Kombinasi
 ----------------
 > Kombinasi 2 unsur dari jml_orang unsur
@@ -29,7 +22,7 @@ Metode Kombinasi
 
 """
 def Faktorial(bil):
-    if bil == 1:
+    if bil in [0, 1]:
         return 1
     else:
         return Faktorial(bil - 1) * bil
@@ -37,4 +30,10 @@ def Faktorial(bil):
 def Kombinasi_Salaman(jml_orang):
     return int(Faktorial(jml_orang) / (Faktorial(jml_orang - 2) * Faktorial(2)))
 
-print(f"\nJumlah salaman: {Kombinasi_Salaman(jml_orang)}")
+
+if __name__ == "__main__":
+    # inisialisasi jumlah orang
+    jml_orang = 5
+    # jumlah orang harus lebih dari 1
+    assert jml_orang > 1
+    print(f"\nJumlah salaman: {Kombinasi_Salaman(jml_orang)}")

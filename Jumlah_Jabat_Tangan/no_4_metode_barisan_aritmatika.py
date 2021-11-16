@@ -8,15 +8,8 @@ https://galihboy.github.io
 3 orang = ABC -> A-B, A-C, B-C (3x salaman)
 4 orang = ABCD -> A-B, A-C, A-D, B-C, B-D, C-D (6x salaman)
 5 orang = ABCDE -> A-B, A-C, A-D, A-E, B-C, B-D, B-E, C-D, C-E, D-E (10x salaman)
-"""
+------------------------------------------------------------------------------------
 
-# inisialisasi jumlah orang
-jml_orang = 5
-
-# jumlah orang harus lebih dari 1
-assert jml_orang > 1
-
-"""
 Metode Pola Bilangan -> Barisan Aritmatika
 
 Jml Orang         = 2   3   4   5
@@ -35,4 +28,10 @@ def Barisan_Aritmatika_Tingkat_2(jml_orang):
     un = a*(n**2) + (b*n) + c
     return int(un)
 
-print(f"\nJumlah salaman: {Barisan_Aritmatika_Tingkat_2(jml_orang)}")
+
+if __name__ == "__main__":
+    # inisialisasi jumlah orang
+    jml_orang = 5
+    # jumlah orang harus lebih dari 1
+    assert jml_orang > 1
+    print(f"\nJumlah salaman: {Barisan_Aritmatika_Tingkat_2(jml_orang)}")
