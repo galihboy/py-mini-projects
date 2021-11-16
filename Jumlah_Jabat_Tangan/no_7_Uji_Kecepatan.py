@@ -30,7 +30,7 @@ if __name__ == "__main__":
     akhir = time.perf_counter_ns()
     selisih = (akhir-mulai)/1000
     lstWaktu.append(selisih)
-    print(f"Waktu: {selisih} milidetik")
+    print(f"Waktu: {selisih} mikrodetik")
     # ----------------
     print("\nMetode 2 - Rekursif")
     mulai = time.perf_counter_ns()
@@ -39,7 +39,7 @@ if __name__ == "__main__":
     akhir = time.perf_counter_ns()
     selisih = (akhir - mulai) / 1000
     lstWaktu.append(selisih)
-    print(f"Waktu: {selisih} milidetik")
+    print(f"Waktu: {selisih} mikrodetik")
     # -----------------
     print("\nMetode 3 - Barisan Aritmatika Bertingkat Dua")
     mulai = time.perf_counter_ns()
@@ -48,7 +48,7 @@ if __name__ == "__main__":
     akhir = time.perf_counter_ns()
     selisih = (akhir - mulai) / 1000
     lstWaktu.append(selisih)
-    print(f"Waktu: {selisih} milidetik")
+    print(f"Waktu: {selisih} mikrodetik")
     # -------------------
     print("\nMetode 4 - Deret Aritmatika (Jumlah Suku)")
     mulai = time.perf_counter_ns()
@@ -57,7 +57,7 @@ if __name__ == "__main__":
     akhir = time.perf_counter_ns()
     selisih = (akhir - mulai) / 1000
     lstWaktu.append(selisih)
-    print(f"Waktu: {selisih} milidetik")
+    print(f"Waktu: {selisih} mikrodetik")
     # --------------------
     print("\nMetode 5 - Kombinasi (Faktorial)")
     mulai = time.perf_counter_ns()
@@ -66,7 +66,7 @@ if __name__ == "__main__":
     akhir = time.perf_counter_ns()
     selisih = (akhir - mulai) / 1000
     lstWaktu.append(selisih)
-    print(f"Waktu: {selisih} milidetik")
+    print(f"Waktu: {selisih} mikrodetik")
 
     print(f"\nDaftar metode sesuai urut waktu secara ascending "
           f"[{jml_orang} orang - {jmlSalaman} salaman].")
