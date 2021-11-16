@@ -10,6 +10,8 @@
 	- kalkulasi antar satuan berat, seperti: ton, kilogram, dst.
 4. [Struktur Data](https://github.com/galihboy/py-mini-projects/tree/main/Struktur_Data)
 	- struktur data
+5. [Jumlah Jabat Tangan](https://github.com/galihboy/py-mini-projects/tree/main/Jumlah_Jabat_Tangan)
+	- menghitung jumlah jabat tangan dari sejumlah orang
 	
 Sebagian aplikasi terdapat demo online-nya di sini: https://galihboy.github.io/mini_projects/
 
