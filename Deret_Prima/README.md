@@ -2,7 +2,7 @@
 ###### Developed by [Galih Hermawan](https://galih.eu).
 ---
 
-Tutorial tersedia dalam [Blog Medium](https://masgalih.medium.com/deret-bilangan-prima-dalam-python-8a343084ad6f).
+Tutorial tersedia dalam [Blog](https://blog.galih.eu/deret-bilangan-prima-dalam-python).
 
 Demo online ada di sini: https://galihboy.github.io/mini_projects/.
 

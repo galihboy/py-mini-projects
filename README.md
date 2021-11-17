@@ -1,5 +1,5 @@
 ## Koleksi proyek kecil (campuran) berbasis Python.
-###### Developed by [Galih Hermawan](https://galih.eu) | [Blog Medium](https://masgalih.medium.com).
+###### Developed by [Galih Hermawan](https://galih.eu) | [Blog](https://blog.galih.eu).
 ---
 
 1. [Deret Prima](https://github.com/galihboy/py-mini-projects/tree/main/Deret_Prima)
