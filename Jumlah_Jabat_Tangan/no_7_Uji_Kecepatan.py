@@ -19,13 +19,13 @@ if __name__ == "__main__":
     lstWaktu = []
 
     # inisialisasi jumlah orang
-    jml_orang = 200
+    jml_orang = 50
     # jumlah orang harus lebih dari 1
     assert jml_orang > 1
 
     print("Metode 1 - Iteratif")
     mulai = time.perf_counter_ns()
-    jmlSalaman = dua.Hitung_Jumlah_Salaman(jml_orang)
+    jmlSalaman = dua.Hitung_Jumlah_Salaman_VersiDua(jml_orang)
     print(f"Jumlah salaman: {jmlSalaman}")
     akhir = time.perf_counter_ns()
     selisih = (akhir-mulai)/1000

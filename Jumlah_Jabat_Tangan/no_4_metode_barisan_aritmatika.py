@@ -23,10 +23,10 @@ dimana,
     a = 1/2, b = 1/2, c = 0
 """
 def Barisan_Aritmatika_Tingkat_2(jml_orang):
-    n = jml_orang - 1
-    a, b, c = 1/2, 1/2, 0
-    un = a*(n**2) + (b*n) + c
-    return int(un)
+    # n = jml_orang - 1
+    a, b, c = 0.5, 0.5, 0
+    # un = a*(n**2) + (b*n) + c
+    return a*((jml_orang-1)**2) + (b*(jml_orang-1)) + c
 
 
 if __name__ == "__main__":

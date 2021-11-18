@@ -23,6 +23,9 @@ def Hitung_Jumlah_Salaman(jml_orang):
         total += i
     return total
 
+def Hitung_Jumlah_Salaman_VersiDua(jml_orang):
+    total = sum(range(1, jml_orang))
+    return total
 
 if __name__ == "__main__":
     # inisialisasi jumlah orang
@@ -30,3 +33,4 @@ if __name__ == "__main__":
     # jumlah orang harus lebih dari 1
     assert jml_orang > 1
     print(f"\nJumlah salaman: {Hitung_Jumlah_Salaman(jml_orang)}")
+    print(f"\nJumlah salaman: {Hitung_Jumlah_Salaman_VersiDua(jml_orang)}")

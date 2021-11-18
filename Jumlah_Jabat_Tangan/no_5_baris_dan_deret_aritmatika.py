@@ -29,9 +29,7 @@ Un = a + (n-1)b = 1 + (n-1-1)1 = n-1
 Sn = n/2 x (a + Un) = n/2 x (2a + (n-1)b) => (n-1)/2 x (2x1 + (n-1-1)x1) = (n^2 - n) / 2
 """
 def Deret_Aritmatika(jml_orang):
-    sn = (jml_orang**2 - jml_orang)/2
-    return int(sn)
-
+    return int((jml_orang**2 - jml_orang)/2)
 
 if __name__ == "__main__":
     # inisialisasi jumlah orang

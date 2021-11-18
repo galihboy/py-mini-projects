@@ -21,6 +21,10 @@ Metode Kombinasi
              i                      2
 
 """
+from math import factorial
+# gunakan fungsi math.factorial untuk komputasi lebih efisien
+
+# fungsi faktorial buat sendiri (rekursif)
 def Faktorial(bil):
     if bil in [0, 1]:
         return 1
@@ -28,7 +32,7 @@ def Faktorial(bil):
         return Faktorial(bil - 1) * bil
 
 def Kombinasi_Salaman(jml_orang):
-    return int(Faktorial(jml_orang) / (Faktorial(jml_orang - 2) * Faktorial(2)))
+    return int(factorial(jml_orang) / (factorial(jml_orang - 2) * factorial(2)))
 
 
 if __name__ == "__main__":
