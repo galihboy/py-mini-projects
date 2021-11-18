@@ -17,6 +17,8 @@ Terdapat 5 metode untuk menghitung jumlah salaman.
 - Fail no_7_Uji_Kecepatan.py -> hasil uji kecepatan eksekusi masing-masing metode
 - Fail no_7b_Uji_Kecepatan_dan_grafik.py -> idem + grafik
 
-  
-<u>Contoh grafik dengan nilai jumlah orang = 100, jumlah pengujian = 10 kali.</u>
-![grafik_100_org](grafik_100_org.png)
+------
+
+Contoh grafik dengan nilai jumlah orang = 100, jumlah pengujian = 10 kali.
+
+<img src="grafik_100_org.png" alt="grafik" width="50%"/>
