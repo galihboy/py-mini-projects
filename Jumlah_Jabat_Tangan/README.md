@@ -16,6 +16,7 @@ Terdapat 5 metode untuk menghitung jumlah salaman.
 - Fail 1_list_salaman.py -> daftar orang yang terlibat dalam jabat tangan
 - Fail no_7_Uji_Kecepatan.py -> hasil uji kecepatan eksekusi masing-masing metode
 - Fail no_7b_Uji_Kecepatan_dan_grafik.py -> idem + grafik
+  - *Reqs module*: numpy & matplotlib
 
 ------
 
