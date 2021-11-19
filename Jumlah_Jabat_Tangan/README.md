@@ -5,6 +5,8 @@
 #### Deskripsi.
 Solusi untuk menghitung jumlah jabat tangan dari sejumlah orang.
 
+[Tutorial](https://blog.galih.eu/5-metode-menghitung-jumlah-jabat-tangan-salaman-menggunakan-python) | [Demo online](https://galihboy.github.io/mini_projects/).
+
 Terdapat 5 metode untuk menghitung jumlah salaman.
 1. Metode iteratif
 2. Metode rekursif
