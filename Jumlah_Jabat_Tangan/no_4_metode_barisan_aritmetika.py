@@ -10,28 +10,28 @@ https://galihboy.github.io
 5 orang = ABCDE -> A-B, A-C, A-D, A-E, B-C, B-D, B-E, C-D, C-E, D-E (10x salaman)
 ------------------------------------------------------------------------------------
 
-Metode Pola Bilangan -> Barisan Aritmatika
+Metode Pola Bilangan -> Barisan Aritmetika
 
 Jml Orang         = 2   3   4   5
 Jml Salaman       = 1___3___6___10
 Selisih Tingkat 1 =   2___3___4
 Selisih Tingkat 2 =     1___1
 
-Termasuk kategori barisan aritmatika bertingkat 2 (dua).
+Termasuk kategori barisan aritmetika bertingkat 2 (dua).
 Un = an^2 + bn + c
 dimana,
     a = 1/2, b = 1/2, c = 0
 """
-def Barisan_Aritmatika_Tingkat_2(jml_orang):
+def Barisan_Aritmetika_Tingkat_2(jml_orang):
     # n = jml_orang - 1
     a, b, c = 0.5, 0.5, 0
     # un = a*(n**2) + (b*n) + c
-    return a*((jml_orang-1)**2) + (b*(jml_orang-1)) + c
+    return int(a*((jml_orang-1)**2) + (b*(jml_orang-1)) + c)
 
 
 if __name__ == "__main__":
     # inisialisasi jumlah orang
-    jml_orang = 5
+    jml_orang = 10
     # jumlah orang harus lebih dari 1
     assert jml_orang > 1
-    print(f"\nJumlah salaman: {Barisan_Aritmatika_Tingkat_2(jml_orang)}")
+    print(f"\nJumlah salaman: {Barisan_Aritmetika_Tingkat_2(jml_orang)}")

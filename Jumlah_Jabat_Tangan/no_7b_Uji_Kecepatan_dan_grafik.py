@@ -7,8 +7,8 @@ https://galihboy.github.io
 """
 import no_2_metode_iterative as dua
 import no_3_metode_rekursif as tiga
-import no_4_metode_barisan_aritmatika as empat
-import no_5_baris_dan_deret_aritmatika as lima
+import no_4_metode_barisan_aritmetika as empat
+import no_5_baris_dan_deret_aritmetika as lima
 import no_6_kombinasi as enam
 import time
 import numpy as np
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     kamus = {}
 
     # inisialisasi
-    jml_orang = 100
+    jml_orang = 2000
     jml_uji = 10
     satuan = "mikrodetik"
     # jumlah orang harus lebih dari 1
@@ -61,14 +61,14 @@ if __name__ == "__main__":
     print(f"Max: {selisih.max()}, Min: {selisih.min()}, Avg: {selisih.mean()}")
     lstWaktu.append(selisih)
     # -----------------
-    print("\nMetode 3 - Barisan Aritmatika Bertingkat Dua")
-    selisih = Hitung_Waktu(empat.Barisan_Aritmatika_Tingkat_2, jml_orang, jml_uji)
+    print("\nMetode 3 - Barisan Aritmetika Bertingkat Dua")
+    selisih = Hitung_Waktu(empat.Barisan_Aritmetika_Tingkat_2, jml_orang, jml_uji)
     print(f"Waktu: {selisih} {satuan}")
     print(f"Max: {selisih.max()}, Min: {selisih.min()}, Avg: {selisih.mean()}")
     lstWaktu.append(selisih)
     # -------------------
-    print("\nMetode 4 - Deret Aritmatika (Jumlah Suku)")
-    selisih = Hitung_Waktu(lima.Deret_Aritmatika, jml_orang, jml_uji)
+    print("\nMetode 4 - Deret Aritmetika (Jumlah Suku)")
+    selisih = Hitung_Waktu(lima.Deret_Aritmetika, jml_orang, jml_uji)
     print(f"Waktu: {selisih} {satuan}")
     print(f"Max: {selisih.max()}, Min: {selisih.min()}, Avg: {selisih.mean()}")
     lstWaktu.append(selisih)

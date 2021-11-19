@@ -7,8 +7,8 @@ https://galihboy.github.io
 """
 import no_2_metode_iterative as dua
 import no_3_metode_rekursif as tiga
-import no_4_metode_barisan_aritmatika as empat
-import no_5_baris_dan_deret_aritmatika as lima
+import no_4_metode_barisan_aritmetika as empat
+import no_5_baris_dan_deret_aritmetika as lima
 import no_6_kombinasi as enam
 import time
 
@@ -19,7 +19,7 @@ if __name__ == "__main__":
     lstWaktu = []
 
     # inisialisasi jumlah orang
-    jml_orang = 50
+    jml_orang = 2000
     # jumlah orang harus lebih dari 1
     assert jml_orang > 1
 
@@ -41,18 +41,18 @@ if __name__ == "__main__":
     lstWaktu.append(selisih)
     print(f"Waktu: {selisih} mikrodetik")
     # -----------------
-    print("\nMetode 3 - Barisan Aritmatika Bertingkat Dua")
+    print("\nMetode 3 - Barisan Aritmetika Bertingkat Dua")
     mulai = time.perf_counter_ns()
-    jmlSalaman = empat.Barisan_Aritmatika_Tingkat_2(jml_orang)
+    jmlSalaman = empat.Barisan_Aritmetika_Tingkat_2(jml_orang)
     print(f"Jumlah salaman: {jmlSalaman}")
     akhir = time.perf_counter_ns()
     selisih = (akhir - mulai) / 1000
     lstWaktu.append(selisih)
     print(f"Waktu: {selisih} mikrodetik")
     # -------------------
-    print("\nMetode 4 - Deret Aritmatika (Jumlah Suku)")
+    print("\nMetode 4 - Deret Aritmetika (Jumlah Suku)")
     mulai = time.perf_counter_ns()
-    jmlSalaman = lima.Deret_Aritmatika(jml_orang)
+    jmlSalaman = lima.Deret_Aritmetika(jml_orang)
     print(f"Jumlah salaman: {jmlSalaman}")
     akhir = time.perf_counter_ns()
     selisih = (akhir - mulai) / 1000

@@ -10,7 +10,7 @@ https://galihboy.github.io
 5 orang = ABCDE -> A-B, A-C, A-D, A-E, B-C, B-D, B-E, C-D, C-E, D-E (10x salaman)
 ------------------------------------------------------------------------------------
 
-Metode Pola Bilangan -> Baris dan Deret Aritmatika
+Metode Pola Bilangan -> Baris dan Deret Aritmetika
 ---------------------------------------------------
 JUMLAH ORANG       JABAT TANGAN            TOTAL
 ----------------------------------------------------
@@ -28,7 +28,7 @@ Un = a + (n-1)b = 1 + (n-1-1)1 = n-1
 .: Jumlah suku ke-n :.
 Sn = n/2 x (a + Un) = n/2 x (2a + (n-1)b) => (n-1)/2 x (2x1 + (n-1-1)x1) = (n^2 - n) / 2
 """
-def Deret_Aritmatika(jml_orang):
+def Deret_Aritmetika(jml_orang):
     return int((jml_orang**2 - jml_orang)/2)
 
 """
@@ -46,7 +46,7 @@ a = suku pertama = 1
 Un = suku ke n (jumlah orang - 1)
 
 """
-def Deret_Aritmatika_Versi2(jml_orang):
+def Deret_Aritmetika_Versi2(jml_orang):
     return int(((jml_orang-1) / 2) * (1 + jml_orang-1))
 
 
@@ -55,5 +55,5 @@ if __name__ == "__main__":
     jml_orang = 5
     # jumlah orang harus lebih dari 1
     assert jml_orang > 1
-    print(f"\nJumlah salaman 1: {Deret_Aritmatika(jml_orang)}")
-    print(f"\nJumlah salaman 2: {Deret_Aritmatika_Versi2(jml_orang)}")
+    print(f"\nJumlah salaman 1: {Deret_Aritmetika(jml_orang)}")
+    print(f"\nJumlah salaman 2: {Deret_Aritmetika_Versi2(jml_orang)}")

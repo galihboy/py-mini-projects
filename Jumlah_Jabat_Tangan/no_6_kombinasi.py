@@ -16,10 +16,8 @@ Metode Kombinasi
 > i = salaman melibatkan dua orang = 2
 > j = jumlah orang terlibat = jml_orang
 > Rumus kombinasi.
-             j                      jml_orang
-            C   = j!/(j−i)!.i! --> C = Faktorial(jml_orang) / ( Faktorial(jml_orang-2) x Faktorial(2) )
-             i                      2
 
+        C (j,i)   = j!/(j−i)!.i! --> C (jml_orang, 2) = Faktorial(jml_orang) / ( Faktorial(jml_orang-2) x Faktorial(2) )
 """
 from math import factorial
 # gunakan fungsi math.factorial untuk komputasi lebih efisien
@@ -37,7 +35,7 @@ def Kombinasi_Salaman(jml_orang):
 
 if __name__ == "__main__":
     # inisialisasi jumlah orang
-    jml_orang = 5
+    jml_orang = 40
     # jumlah orang harus lebih dari 1
     assert jml_orang > 1
     print(f"\nJumlah salaman: {Kombinasi_Salaman(jml_orang)}")
