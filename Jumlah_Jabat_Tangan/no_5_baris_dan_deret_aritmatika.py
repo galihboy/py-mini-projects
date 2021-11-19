@@ -31,9 +31,29 @@ Sn = n/2 x (a + Un) = n/2 x (2a + (n-1)b) => (n-1)/2 x (2x1 + (n-1-1)x1) = (n^2 
 def Deret_Aritmatika(jml_orang):
     return int((jml_orang**2 - jml_orang)/2)
 
+"""
+.: Jumlah suku ke-n - Versi lain :.
+
+2 orang adalah 1
+3 orang adalah (1 + 2)
+4 orang adalah (1 + 2 + 3)
+5 orang adalah (1 + 2 + 3 + 4)
+n orang adalah (1 + 2 + 3 + … + (n – 1))
+------------------------------------------
+Sn = n/2 . (a + Un)
+n = jumlah orang - 1
+a = suku pertama = 1
+Un = suku ke n (jumlah orang - 1)
+
+"""
+def Deret_Aritmatika_Versi2(jml_orang):
+    return int(((jml_orang-1) / 2) * (1 + jml_orang-1))
+
+
 if __name__ == "__main__":
     # inisialisasi jumlah orang
     jml_orang = 5
     # jumlah orang harus lebih dari 1
     assert jml_orang > 1
-    print(f"\nJumlah salaman: {Deret_Aritmatika(jml_orang)}")
+    print(f"\nJumlah salaman 1: {Deret_Aritmatika(jml_orang)}")
+    print(f"\nJumlah salaman 2: {Deret_Aritmatika_Versi2(jml_orang)}")
