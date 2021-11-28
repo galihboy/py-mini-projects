@@ -16,6 +16,15 @@ def faktor_bilangan(angka):
                 listOutput.append(f"{i} x {hasilBagi}")
     return listAngka, listOutput
 
+def faktor_bilangan_optimized(angka):
+    listOutput = []
+    faktor = [i for i in range(1,angka+1) if angka%i==0]
+    jml = len(faktor)//2 + len(faktor)%2
+    for i, data in enumerate(faktor):
+        if i==jml: break
+        listOutput.append(f"{faktor[i]} x {faktor[-1-i]}")
+    return faktor, listOutput
+
 
 if __name__ == "__main__":
     while True:
@@ -27,6 +36,6 @@ if __name__ == "__main__":
         except AssertionError:
             break
         else:
-            bilFaktor, bilKali = faktor_bilangan(angka)
+            bilFaktor, bilKali = faktor_bilangan_optimized(angka)
             print(f"Faktor bilangan dari {angka} adalah {bilFaktor}")
             print(f"Daftar perkalian : {bilKali}")
