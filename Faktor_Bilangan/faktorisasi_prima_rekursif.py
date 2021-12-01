@@ -10,6 +10,8 @@ Versi Penelusuran Pohon Faktor - Rekursif
          2   3
 luaran = [2, 2, 3]
 """
+from collections import Counter
+
 def faktor_prima_rekursif(angka, lst=[]):
     # jika list kosong
     if not lst:
@@ -35,8 +37,26 @@ def faktor_prima_rekursif(angka, lst=[]):
         lst.extend([pembagi, pengali])
         return lst
 
+# menyederhanakan tampilan hasil faktorisasi prima dengan bilangan prima berpangkat
+def kamus_penyederhanaan(listFaktorPrima):
+    if listFaktorPrima:
+        kamus = Counter(listFaktorPrima)
+        lst = []
+        for i in kamus:
+            # print(i, kamus[i])
+            lst.append(f"{i}^{kamus[i]}")
+        if len(lst)>1:
+            return " x ".join(lst)
+        else:
+            return lst[0]
+    else:
+        return None
+
 
 if __name__ == '__main__':
     angka = 12
-    print("Hasil: ", faktor_prima_rekursif(angka))
+    faktor_prima = faktor_prima_rekursif(angka)
+    bentuk_sederhana = kamus_penyederhanaan(faktor_prima)
+    print(f"Hasil: {faktor_prima}")
+    print(f"Bentuk sederhana: {bentuk_sederhana}")
 
